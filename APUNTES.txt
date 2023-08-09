@@ -1,0 +1,9 @@
+docker start postgres-db
+
+docker exec -it postgres-db bash
+
+psql -U postgres
+
+CREATE DATABASE mybait;
+
+\q
